@@ -8,7 +8,7 @@ originalint=n;
 while(n!=0)
 {
 rem=n%10;
-reverseint=reverseint*10;
+reverseint=reverseint*10+rem;
 n/=10;
 }
 if(originalint==reverseint)
