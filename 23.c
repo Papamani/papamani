@@ -1,19 +1,19 @@
 #include <stdio.h>
 int main() 
 {
-int array[100], minimum, size, c, location = 1;
+int array[100], minimum, size, a, location = 1;
 printf("Enter the number of elements in array\n");
 scanf("%d",&size);
 printf("Enter %d integers\n", size);
-for ( c = 0 ; c < size ; c++ )
-scanf("%d", &array[c]);
+for ( a= 0 ; a< size ; a++ )
+scanf("%d", &array[a]);
 minimum = array[0];
-for ( c = 1 ; c < size ; c++ ) 
+for ( a = 1 ; a< size ; a++ ) 
 {
-if ( array[c] < minimum ) 
+if ( array[a] < minimum ) 
 {
-minimum = array[c];
-location = c+1;
+minimum = array[a];
+location = a+1;
 }
 } 
 printf("Minimum element is present at location %d and it's value is %d.\n", location, minimum);
