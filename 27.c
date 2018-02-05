@@ -8,7 +8,7 @@ int main()
 	if(ret)
 		printf("It is numeric string");
 	else
-		printf("It is not numeric string")l;
+		printf("It is not numeric string");
 	ret = isNumericString(str2);
 	if(ret)
 		printf("It is numeric string");
